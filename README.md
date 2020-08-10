@@ -36,48 +36,28 @@ If you have the same MB and managed to solve this issue or didn’t get it at al
 
 **Version** | 10.15.6 (Catalina) 
 
-**SMBIOS** | MacPro7,1
+**SMBIOS** | iMacPro1,1
 
 ## ACPI
 
-SSDTTime and Dortania are your friends, but this EFI should work well on the x570 MB as far as the USB ports are concerned.
-
-I used SSDTime on Linux to generate the .aml and .dsl files.
-
-- SSDT-EC.aml
-- SSDT-EC.dsl
-- SSDT-HPET.aml
-- SSDT-HPET.dsl
-- SSDT-USBX.aml
+- SSDT-EC-USBX-DESKTOP.aml
+- XHC02.aml
 
 ## Drivers
 
 - HfsPlus.efi
 - OpenRuntime.efi
+- OpenCanopy.efi
+
 
 ## Kexts
 
-- AHCI_3rdParty_SATA.kext
-- AppleMCEReporterDisabler.kext         
-- Lilu.kext                             
-- SMCAMDProcessor.kext
-- AMD-USB-Map.kext                      
-- BrcmFirmwareData.kext
-- MacProMemoryNotificationDisabler.kext
-- SmallTreeIntel82576.kext
-- AMDRyzenCPUPowerManagement.kext       
-- BrcmPatchRAM3.kext                    
+- Lilu.kext                                                 
 - NVMeFix.kext                          
 - VirtualSMC.kext
-- AirportBrcmFixup.kext
 - HibernationFixup.kext
-- RadeonBoost.kext
 - WhateverGreen.kext
-- AmdCPUMonitor.kext
-- IntelBluetoothFirmware.kext
-- RadeonMonitor.kext
 - AppleALC.kext
-- IntelBluetoothInjector.kext
 - RealtekRTL8111.kext
 
 ## TODO
