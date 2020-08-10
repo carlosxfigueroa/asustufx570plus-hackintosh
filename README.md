@@ -33,7 +33,7 @@ If you have the same MB and managed to solve this issue or didn’t get it at al
 
 ## macOS Installation
 
-**Version** | 10.15.6 (Catalina) 
+**Version** | 10.15.6 (Catalina)| 11.0 (Big Sur)
 
 **SMBIOS** | iMacPro1,1
 
@@ -61,7 +61,6 @@ If you have the same MB and managed to solve this issue or didn’t get it at al
 
 ## TODO
 
-- [ ] Fix sleep issues.
 - [ ] Fix minor issues with frame dropping and stuttering “specially with high quality Youtube videos”.
 
 ## Disclaimer
