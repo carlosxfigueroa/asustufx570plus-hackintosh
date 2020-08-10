@@ -20,7 +20,6 @@ I’ve been experimenting with hackintosh since I got my PC and over the past fe
 
 Everything is working just fine except:
 
-- Sleep
 - Android Studio emulator “Normally, it’s not expected to work on AMD based hackintoshes and can be replaced with Genymotion”
 
 
